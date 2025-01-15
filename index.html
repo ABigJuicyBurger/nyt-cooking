@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NYT Cooking</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <!-- based off cooking.nytimes.com -->
   <body>
@@ -21,10 +22,44 @@
             fill="currentColor"
           ></path>
         </svg>
-        <button>Login</button>
-        <button>Subscribe</button>
+        <input
+          class="top-bar__search"
+          placeholder="What would you like to cook?"
+        />
+        <button>Your recipe Box</button>
+        <button>
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0ZM18.998 16.571A1.06 1.06 0 0 0 19 16.5c0-1.38-3.686-3-7-3s-7 1.62-7 3c0 .024 0 .048.002.071H5V19a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.429h-.002Z"
+              fill="#121212"
+            ></path>
+          </svg>
+        </button>
       </div>
-      <nav></nav>
+      <nav class="main-nav">
+        <ul class="main-nav_-links">
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">What to Cook</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">RECIPES</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">INGREDIENTS</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">OCCASIONS</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">ABOUT</a>
+          </li>
+        </ul>
+      </nav>
     </header>
   </body>
 </html>
